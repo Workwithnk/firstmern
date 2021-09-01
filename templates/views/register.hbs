@@ -1,0 +1,14 @@
+<html>
+    <head>
+        {{>head}}
+    </head>
+    <body>
+        {{>navbar}}
+        <form action="/register" method="POST">
+           <input type="text" placeholder="enter your name" name="userName" required />
+           <input type="email" placeholder="enter your email" name="userEmail" required />
+           <input type="password" placeholder="enter your password" name="userPass" required />
+           <button type="submit">Submit</button>
+        </form>
+    </body>
+</html>

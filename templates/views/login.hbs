@@ -1,0 +1,13 @@
+<html>
+    <head>
+        {{>head}}
+    </head>
+    <body>
+        {{>navbar}}
+        <form action="/login" method="POST">
+            <input type="email" name="usrEmail" placeholder="enter your email here" required />
+            <input type="password" name="usrPass" placeholder="enter your password here" required />
+            <button type="submit">submit</button>
+        </form>
+    </body>
+</html>
